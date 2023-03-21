@@ -4,7 +4,7 @@
 */
 
 
-import { html,LitElement,css} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
+import { html,LitElement,css} from 'https://cdn.jsdelivr.net/gh/marcwibbs/Nintex@main/MapsPlugIn.js';
 
 
 // define the component
@@ -46,7 +46,7 @@ export class MapsPlugin extends LitElement {
       fallbackDisableSubmit: false,
       groupName: 'Google Maps',
       version: '1.2',
-      pluginAuthor: 'Sven Berling',
+      pluginAuthor: 'Marc Wilmington',
       properties: {
         apiKey: {
           type: 'string',
