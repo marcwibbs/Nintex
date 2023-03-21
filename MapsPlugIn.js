@@ -97,7 +97,7 @@ export class MapsPlugin extends LitElement {
     }
     else {      
       return html`
-        <p>Bitte geben Sie eine Adresse ein / Please enter an address  </p>  
+        <p>Please enter an address  </p>  
       `;   
     }
   }     
