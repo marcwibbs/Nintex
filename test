@@ -24,7 +24,7 @@ export class myFirrstPlugin extends LitElement {
     this.who = 'in';
   }											
   render() {
-    return html`<p>plug ${this.who}<p/>`;
+    return html`<p>plug ${this.who}</p>`;
   }
 }
 // registering the web component
